@@ -12,11 +12,7 @@
                 <a href="index.php">Home</a>
                 <a href="pagea.php">PAgea</a>
                 <a href="pageb.php">pageb</a>
-<<<<<<< HEAD
-                <a href="db/tbl_product.php">Products</a>
-
-=======
->>>>>>> 54f409391309e5a8cfe1b329ca84566e6b75f409
+                <a href="tbl_product.php">Products</a>
             </nav>
             <div></div>
         </header>
