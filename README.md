@@ -2,7 +2,7 @@
 
 ## Team Participants
 
-* MohitKumar (username1)
-* Maninder (username2)
-* Karankumar (kpatel2)
+* Mohit Kumar (mmohitku)
+* Maninder Singh (mmanide1)
+* Karan kumar (kpatel2)
 * MalavPatel (mpatel2)
