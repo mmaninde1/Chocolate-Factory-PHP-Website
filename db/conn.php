@@ -1,12 +1,15 @@
+<?php
 
-        <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "finalproject";
 
-            $mysqli = new mysqli("localhost", "root", "", "finalproject");
-            //var_dump($mysqli->connect_errno);
-
-            if ($mysqli->connect_errno) {
-                echo "Failled to connect to MySQL : (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-            }
-       
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
 ?>
