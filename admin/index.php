@@ -22,6 +22,7 @@ include 'views/header.php';
       <th scope="col">Number of Likes</th>
       <th scope="col">Update</th>
       <th scope="col">Delete</th>
+      <th scope="col">Reset Likes</th>
     </tr>
   </thead>
   <tbody>
@@ -43,6 +44,7 @@ include 'views/header.php';
           <td><?= $row['n_likes']; ?></td>
           <td><a href="update.php?id=<?= $row['p_id']; ?>"><button class="btn btn-primary">Update</button></a></td>
           <td><a href="delete.php?id=<?= $row['p_id']; ?>"><button class="btn btn-primary">Delete</button></a></td>
+          <td><a href="resetlikes.php?id=<?= $row['p_id']; ?>"><button class="btn btn-primary">Reset Likes</button></a></td>
         </tr>
       <?php
       }
