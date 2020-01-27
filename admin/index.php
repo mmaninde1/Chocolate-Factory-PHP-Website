@@ -56,14 +56,9 @@ include 'views/header.php';
         <strong>Error!</strong> No Products in Database.
       </div><?php
           }
-
-
-
             ?>
-
     </div>
 
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </body>
-
     </html>

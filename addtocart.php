@@ -1,11 +1,8 @@
 <?php
-
-
 include 'db/conn.php';
 
 if (!empty($_GET)) {
     $id = $_GET['id'];
-
     $sql = "INSERT INTO cart (p_id) VALUES('$id')";
 
     if ($result = $conn->query($sql)) {
@@ -13,8 +10,7 @@ if (!empty($_GET)) {
     } else {
         header("Location:index.php");
     }
-}
-else
-{
+} else {
     header("Location:index.php");
 }
+?>

@@ -8,9 +8,7 @@ if ($_SESSION['id'] == false) {
 }
 
 include 'views/header.php';
-
 require_once('conn.php');
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 

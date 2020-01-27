@@ -1,13 +1,12 @@
 <?php
 
-session_start(); /* Starts the session */
+session_start();
 
 if ($_SESSION['id'] == false) {
     header("location:login.php");
     exit;
 }
 include 'views/header.php';
-
 require_once('conn.php');
 
 $id = $_GET['id'];

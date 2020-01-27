@@ -1,10 +1,8 @@
 <?php
-
 include 'db/conn.php';
 
 $id = $_GET['id'];
 $sql = "DELETE FROM cart WHERE id='" . $id . "'";
-
 
 if ($conn->query($sql) === TRUE)
 {
@@ -15,7 +13,5 @@ else
     echo "Error in removing this product from cart";
 }
 
-
 $conn->close();
-
 ?>

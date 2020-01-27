@@ -1,16 +1,12 @@
-
-    <?php
+<?php
 
 require_once('views/page_top.php');
 include 'db/conn.php';
 
-if (isset($_POST['purchase']))
-{
+if (isset($_POST['purchase'])) {
     if (empty($_POST['email'])) {
         echo "Email is required and cannot be empty!";
-    } 
-    else 
-    {
+    } else {
 
         $sql = "TRUNCATE TABLE cart";
         $result = $conn->query($sql);
@@ -23,13 +19,10 @@ if (isset($_POST['purchase']))
             return $data;
         }
         $email = test_input($_POST['email']);
-
-        ?>
-
+?>
         <h3 style="text-align: center;">All Products has been pruchased by <?php echo $_POST['email'] ?></h3>
 
 <?php
     }
-
 }
-       ?>
+?>

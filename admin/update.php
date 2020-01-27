@@ -1,13 +1,12 @@
 <?php
 
-session_start(); /* Starts the session */
+session_start();
 
 if ($_SESSION['id'] == false) {
     header("location:login.php");
     exit;
 }
 include 'views/header.php';
-
 require_once('conn.php');
 
 $id = $_GET['id'];
@@ -41,10 +40,6 @@ $row = $result->fetch_assoc();
     <button type="submit" name="update" class="btn btn-primary btn-success">Update</button>
     <a href="index.php"><button type="button" class="btn btn-primary">Cancel</button></a>
 </form>
-
-
-
 </div>
 </body>
-
 </html>

@@ -32,10 +32,7 @@ include 'views/header.php';
     </div>
     <button type="submit" name="submit" class="btn btn-primary btn-success">Submit</button>
 </form>
-
 </div>
-
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
-
 </html>

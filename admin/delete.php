@@ -7,10 +7,6 @@ if ($_SESSION['id'] == false) {
     exit;
 }
 include 'views/header.php';
-?>
-
-<?php
-
 require_once('conn.php');
 
 $id = $_GET['id'];
@@ -34,9 +30,6 @@ if ($conn->query($sql) === TRUE) { ?>
         header("refresh:3;url=index.php");
         $conn->close();
             ?>
-
-
 </div>
 </body>
-
 </html>
