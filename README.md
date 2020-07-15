@@ -17,7 +17,7 @@ You can use it for your own purpose and you can take any functionality from it.
 --------------------
 Team Participants
 --------------------
-* Mohit Kumar (mmohitku)
-* Maninder Singh (mmaninde1)
-* Karankumar (kpatel2)
-* MalavPatel (mpatel2)
+* Mohit Kumar
+* Maninder Singh
+* Karankumar
+* MalavPatel
